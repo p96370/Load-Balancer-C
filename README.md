@@ -8,9 +8,9 @@ logic is implemented. This file contains 17 functions and declaration and
 initialization of the load balancer. In load_balancer structure the fields are
 server_memory ** - this is an array of servers, which is actually an array of
 hashtables, due to the fact that a server is implemented as a hashtable;
-label * - this is the 'hashring', is tha array that stores the actual index of
+label * - this is the 'hashring', is the array that stores the actual index of
 a server on the correct position, the same position as in the array of servers;
-nr_servers -> total number of servers and total_keys -> tha total number of
+nr_servers -> total number of servers and total_keys -> the total number of
 objects stored on all servers.
 
 	The functions implemented have the following functionality:
